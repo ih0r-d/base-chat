@@ -1,7 +1,7 @@
-import {Routes} from '@angular/router';
 import {SignupFormComponent} from './app/signup-form/signup-form.component';
 import {LoginFormComponent} from './app/login-form/login-form.component';
 import {ChatRoomComponent} from './app/chat-room/chat-room.component';
+import {Routes} from "@angular/router";
 
 export const routes: Routes = [
   {path: 'sign', component: SignupFormComponent},

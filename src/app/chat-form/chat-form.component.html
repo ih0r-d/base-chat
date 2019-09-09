@@ -1,3 +1,6 @@
-<p>
-  chat-form works!
-</p>
+<input
+  class="chat-input"
+  [(ngModel)]="message"
+  (keydown)="handleSubmit($event)"/>
+
+<button class="chat-btn" (click)="send()">Send</button>
